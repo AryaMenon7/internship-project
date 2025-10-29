@@ -1,2 +1,4 @@
-# internship-project
-Keylogger with encrypted data exfilteration
+#Cybersecurity internship-project- Elevate Labs 
+KEYLOGGER WITH ENCRYPTED DATA EXFILTRATION
+The Keylogger with Encrypted Data Exfiltration project demonstrates the mechanics and security implications of keylogging software within an ethical research context. Implemented in PYTHON, the tool captures system keystrokes in real time using PYNPUT and stores them in a protected log. Captured data is encrypted with FERNET (from the cryptography library) to ensure confidentiality and then encoded with BASE64 for safe storage and transport. The project is designed as a learning and defense-oriented exercise: it clarifies how keyloggers operate, illustrates secure handling of sensitive logs, and highlights detection and mitigation strategies to strengthen endpoint security.
+Note: Legal & Ethical Notice: This project is developed solely for educational and defensive cybersecurity research. Do not run this software on machines you do not own, or without explicit written consent. Unauthorized capture of keystrokes is illegal and unethical.
